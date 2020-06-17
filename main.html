@@ -12,21 +12,25 @@
   @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 
+
   body{
 
-    margin: 0% 0% 0% 9%;
-  background: #1ee2e4;background-image: linear-gradient( 110.3deg,  rgba(72,85,99,1) 8.8%, rgba(127,146,166,1) 95.1% );
+
+margin :3%;
+  background: #1ee2e4;background-image:
+  linear-gradient( 110.3deg,  rgba(72,85,99,1) 8.8%, rgba(127,146,166,1) 95.1% );
 
   background-size: cover;
   }
   main{
     /* background:#7FFFD4; */
-  margin: 1% 10% 0% 0%;
+ margin:0% 3% 0% 3%;
   float: none;
   }
 
   header{
-    margin: 0% 10% -.1% 0%;
+    margin-bottom: 2%;
+
     background: #fff;
     padding: 0%;
     line-height: normal;
@@ -43,12 +47,14 @@
        text-align: center;
   }
    .logo{
-     padding: 0%;
+     margin-left: 10%;
+
      vertical-align:top;
-     margin: 0PX;
-     width: 15%;
+
+     width: 80%;
     box-shadow: #333 2px 8px 20px;
   float: left;
+    display: block;
    }
    .logo:hover{
      padding: 1%;
@@ -60,11 +66,14 @@
   }
   .option a{
     padding: 1.5%;
-    margin-left: 15%;
+
     border: 1px ;
   color:#000;
   font-size:xx-large;
     text-decoration: none;
+    border-radius: 20px;
+    margin-left: 8%;
+    background: rgba(231,231,231,.3);
   }
   .option{
     display: inline;
@@ -75,13 +84,13 @@
   }
   #slide-show{
 
-  padding-bottom: 1%;
+
   margin-bottom: 1%;
 
 
   }
   .shop-images img{
-margin-top: .8%;
+  margin-top: .8%;
     width: 100%;
     margin-bottom: 1.5%;
     box-shadow: #333 2px 8px 20px;
@@ -103,43 +112,43 @@ margin-top: .8%;
   .social-link{
     display:inline-block;
     float: right;
-    width: 20%;
+    width: 100%;
   }
   .social-link > a >img{
-    width: 20%;
+    width: 10%;
   }
-  .dp{margin-left: 5%;
+  .dp{margin-left: 3%;
     float: none;
     margin-top: 3%;
     display: inline-block;
   }
   .dp h1{
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
+    font-size: 100px;
   }
   .dplogo{
     width: 15%;
-    float: left;
-    display: contents;
+
+    display:contents;
   }
   .collection-00 {
-    width: 40%;
+    width: 100%;
     display: inline-block;
-    margin-right: 10%;
-    margin-left: 5%;
+
     margin-top: 3%;
   }
   .collection-01 {
-    width: 40%;
+    width: 100%;
     display: inline-block;
-}
-p{
-font-variant: all-petite-caps;
-
-}
-img:hover{
+  }
+  p{
+  font-variant: all-petite-caps;
+  font-size:40px;
+  }
+  img:hover{
   padding: 2%;
-}
+  }
 
   footer{
     line-height: 3;
@@ -150,6 +159,150 @@ img:hover{
   font-size: x-large;
 
   }
+
+
+@media screen and (min-width:768px) {
+
+
+    body{
+
+      margin: 0% 0% 0% 9%;
+    background: #1ee2e4;background-image: linear-gradient( 110.3deg,  rgba(72,85,99,1) 8.8%, rgba(127,146,166,1) 95.1% );
+
+    background-size: cover;
+    }
+    main{
+      /* background:#7FFFD4; */
+    margin: 1% 10% 0% 0%;
+    float: none;
+    }
+
+    header{
+      margin: 0% 10% 2% 0%;
+      background: #fff;
+      padding: 0%;
+      line-height: normal;
+      padding-bottom: 1%;
+    }
+    .header{
+        display: table;
+         font-family:'MuseoModerno'  ;
+
+      width: 100%;
+
+         font-size: 150%;
+
+         text-align: center;
+    }
+     .logo{
+       padding: 0%;
+       vertical-align:top;
+       margin: 0PX;
+       width: 15%;
+      box-shadow: #333 2px 8px 20px;
+    float: left;
+     }
+     .logo:hover{
+       padding: 1%;
+     }
+    .header a{
+
+    color: #000;
+     text-decoration: none;
+    }
+    .option a{
+      padding: 1.5%;
+      margin-left: 15%;
+      border: 1px ;
+    color:#000;
+    font-size:xx-large;
+      text-decoration: none;
+    }
+    .option{
+      display: inline;
+      line-height: 300%;
+    }
+    .option a:hover{
+      background-color: #fff;
+    }
+    #slide-show{
+
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+    }
+    .shop-images img{
+  margin-top: .8%;
+      width: 100%;
+      margin-bottom: 1.5%;
+      box-shadow: #333 2px 8px 20px;
+        border-radius: 20px;
+      display: inline-block;
+    }
+    .collection-00 img{
+      border-radius: 20px;
+      box-shadow: #333 2px 8px 20px;
+      width: 100%;
+      display: inline-block;
+    }
+    .collection-01 img{
+      border-radius: 20px;
+      box-shadow: #333 2px 8px 20px;
+      width: 100%;
+      display: inline-block;
+    }
+    .social-link{
+      display:inline-block;
+      float: right;
+      width: 20%;
+    }
+    .social-link > a >img{
+      width: 20%;
+    }
+    .dp{margin-left: 5%;
+      float: none;
+      margin-top: 3%;
+      display: inline-block;
+    }
+    .dp h1{
+      margin-top: 5%;
+      text-align: center;
+    }
+    .dplogo{
+      width: 15%;
+      float: left;
+      display: contents;
+    }
+    .collection-00 {
+      width: 40%;
+      display: inline-block;
+      margin-right: 10%;
+      margin-left: 5%;
+      margin-top: 3%;
+    }
+    .collection-01 {
+      width: 40%;
+      display: inline-block;
+  }
+  p{
+  font-variant: all-petite-caps;
+  font-size:x-large;
+  }
+  img:hover{
+    padding: 2%;
+  }
+
+    footer{
+      line-height: 3;
+    }
+    footer center{
+      font-variant: small-caps;
+    margin-left: -5%;
+    font-size: x-large;
+
+    }
+}
 
   </style>
   </head>
@@ -183,7 +336,7 @@ img:hover{
  </header>
 <main>
   <nav class="option">
-    <a href="mens.html" style="margin-left:15%">MEN'S</a>
+    <a href="mens.html" >MEN'S</a>
     <a href="women.html">WOMEN'S</a>
     <a href="kids.html">KID'S</a>
   </nav>
